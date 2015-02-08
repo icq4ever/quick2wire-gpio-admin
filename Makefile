@@ -66,7 +66,7 @@ install-files: all
 
 uninstall:
 	rm -vf $(DESTDIR)/bin/gpio-admin $(DESTDIR)/share/man/man1/gpio-admin.1.gz
-	delgroup gpio
+#	delgroup gpio
 .PHONY: uninstall
 
 clean :
